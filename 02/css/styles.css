@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(235, 235, 235);
+}
+
+.container {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+p {
+  font-size: 1em;
+  color: #555;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 0 auto 15px; /* Adiciona alinhamento horizontal ao centro */
+  display: block; /* Necessário para que o auto funcione em elementos inline, como input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #55ba58;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #409544;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-size: 1em;
+}
